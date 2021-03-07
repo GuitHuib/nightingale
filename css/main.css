@@ -1,0 +1,85 @@
+/* GLOBAL STYLES */
+
+body {
+}
+a {
+  color: #fff;
+  cursor: default;
+  text-decoration: none;
+}
+p {
+
+}
+h1 {
+
+}
+ul {
+  list-style: none;
+}
+.content-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20vh 0 20vh 0;
+}
+
+/* HEADER STYLES */
+
+.header {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+.header-nav {
+  display: flex;
+  padding: 3vh 10vw 3vh 0;
+  text-align: center;
+}
+.header-nav li {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header-nav li ~ li {
+  border-left: 1px solid #fff;
+  padding-left: 15px;
+}
+.header-nav a:hover,
+.header-nav a:active {
+  text-decoration: underline;
+}
+.header-logo {
+  display: flex;
+}
+.header-logo img {
+  height: auto;
+  width: 100%;
+}
+
+
+
+/* NAV STYLES */
+.nav-links a {
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+/* SOCIAL LINKS */
+.social-links {
+  padding: 0 5vw;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 5vh 0;
+  text-align: center;
+  width: 100%;
+}
+.copyright {
+  padding-top: 1vh;
+}
