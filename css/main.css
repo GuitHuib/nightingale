@@ -52,10 +52,11 @@ ul {
 }
 .header-logo {
   display: flex;
+  padding-left: 3vw;
 }
 .header-logo img {
   height: auto;
-  width: 100%;
+  width: 25%;
 }
 
 
@@ -68,6 +69,7 @@ ul {
 
 /* SOCIAL LINKS */
 .social-links {
+  font-size: 2.5em;
   padding: 0 5vw;
 }
 
@@ -81,5 +83,5 @@ ul {
   width: 100%;
 }
 .copyright {
-  padding-top: 1vh;
+  padding-bottom: 2vh;
 }
