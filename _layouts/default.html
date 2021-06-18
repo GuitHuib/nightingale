@@ -3,13 +3,22 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-
     <div class="content-container">
       {{ content }}
-      <h1>Nightingale Ensemble</h1>
+      {% include footer.html %}
     </div>
 
-    {% include footer.html %}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 
   </body>
 </html>

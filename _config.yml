@@ -41,3 +41,16 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+# edit on netlify
+name: 'pages'
+label: 'Pages'
+editor:
+  preview: false
+files:
+  - label: 'Contact Page'
+    name: 'contact'
+    file: 'contact.md'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'hidden', default: 'contact' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'contact' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
