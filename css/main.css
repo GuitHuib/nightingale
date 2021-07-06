@@ -2,7 +2,7 @@
 
 body {
   /* background-color: #731400; */
-  background-image: url(/images/painting1.jpg);
+  background-image: url(../images/painting1.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -108,7 +108,7 @@ table {
 /* HOME STYLES */
 
 .home-img {
-  background-image: url(/images/hero.jpeg);
+  background-image: url(../images/hero.jpeg);
   background-position: center;
   background-size: cover;
   height: 45vh;
@@ -140,7 +140,7 @@ table {
   padding-top: 1.5em;
 }
 .members-img {
-  background-image: url(/images/members_pic.jpeg);
+  background-image: url(../images/members_pic.jpeg);
   background-position: center;
   background-size: cover;
   height: 45vh;
@@ -182,7 +182,7 @@ table {
 
 /* EVENTS STYLES */
 .events-img {
-  background-image: url(/images/perf.jpg);
+  background-image: url(../images/perf.jpg);
   background-position: center;
   background-size: cover;
   height: 45vh;
