@@ -5,9 +5,3 @@ layout: default
 {% include home.html %}
 
 {% include landing.html %}
-
-<!-- {% include poem.html %} -->
-
-<!-- {% include event_splash.html %} -->
-
-<!-- {% include media_splash.html %} -->
