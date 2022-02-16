@@ -1,4 +1,3 @@
-/* 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
 /* GLOBAL STYLES */
 body {
   /* background-color: #731400; */
@@ -20,7 +19,6 @@ h1 {
 }
 h2 {
   /* color: #bfb4b4; */
-  /* font-family: program, sans-serif; */
   font-size: 1.75em;
   font-weight: 500;
   line-height: 2.5rem;
@@ -63,30 +61,6 @@ ul {
   background-image: url(../images/IMG_20220209_113832_01.jpg);
 }
 /* Layout Styles */
-
-/* .content-container {
-  background-color: rgba(0,0,0,0.6);
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-bottom: 10vh;
-  margin-top: 10vh;
-  padding-top: 5vh;
-  padding-bottom: 3vh;
-  max-width: 1300px;
-} */
-/* .container {
-  margin: 3em;
-} */
-/* .page-container {
-  padding: 2em;
-}
-.page-container h1 {
-  padding-bottom: 2rem;
-  text-decoration: underline;
-} */
 .flex-container {
   color: #000;
   display: flex;
@@ -138,19 +112,20 @@ ul {
 }
 .top-banner {
   background-color: rgba(0,0,0,0.8);
-  padding-top: 12.5vh;
+  padding-top: 9.5vh;
 }
 /* NAV STYLES */
 .nav-link {
+  font-family: 'Kalam', cursive;
   line-height: 1.2em;
   text-transform: uppercase;
   transition: color .5s;
 }
 /* Hero */
 .home-img {
-  background-image: url(../images/hero.jpeg);
+  /* background-image: url(../images/hero.jpeg);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 .video-wrapper {
   position: relative;
@@ -237,6 +212,18 @@ video {
   padding: 20px;
 }
 /* About styles */
+.bio-container {
+  position: relative;
+}
+.bio {
+  position: absolute;
+  transform: translate(-120vh, 0);
+  transition: all 1s;
+}
+.bio.active {
+  position: relative;
+  transform: translate(0, 0);
+}
 .headshots {
   margin: 5rem 0;
   text-transform: uppercase;
@@ -247,7 +234,13 @@ video {
 .headshot:hover {
   transform: translate(0, -1.5rem);
 }
+.headshot a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
 .is-active {
+  opacity: 1;
+  position: relative;
   transform: translate(0, -1.5rem);
 }
 .name {
@@ -256,10 +249,15 @@ video {
 }
 .img-round {
   border-radius: 50%;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.5);
   height: auto;
   width: 100%;
   max-height: 225px;
   max-width: 225px;
+}
+.img-sq {
+  height: auto;
+  width: 75%;
 }
 /* FOOTER STYLES */
 .footer {
@@ -279,116 +277,6 @@ video {
   padding-right: 3vw;
   text-align: left;
 }
-/* POEM STYLES */
-/* .poem {
-  border-bottom: 1px solid #bdb7b7;
-  box-sizing: border-box;
-  color: #bdb7b7;
-  margin: auto;
-  margin-bottom: 5em;
-  padding: 2em 2em 4em;
-  width: 80%;
-}
-.stanza {
-  font-family: 'Italianno', cursive;
-  font-size: 2em;
-  letter-spacing: 1.5px;
-  line-height: 1.5em;
-  padding-top: 0.8em;
-}
-.caption {
-  padding-left: 5em;
-} */
-/* EVENT SPLASH STYLES */
-/* .event-splash {
-  margin: auto;
-  text-align: center;
-}
-/* MEDIA SPLASH STYLES */
-/* .media-splash {
-  margin: auto;
-  text-align: center;
-}
-.media-shootout {
-  padding-bottom: 2em;
-}  */
-/* ABOUT STYLE */
-/* .bio-links a{
-  color: #bfb4b4;
-  display: block;
-  padding-left: 2em;
-  line-height: 1.3em;
-  text-decoration: underline;
-}
-.bio-links a:hover{
-  color: #fff;
-}
-.about-ng {
-  border-bottom: 1px solid #bfb4b4;
-  padding: 2em;
-}
-.about-ng p{
-  padding-top: 1.5em;
-}
-.members-img {
-  background-image: url(../images/members_pic.jpeg);
-  background-position: center;
-  background-size: cover;
-  height: 45vh;
-  margin: auto;
-  width: 85%;
-}
-.members {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-}
-.member-row {
-  display: flex;
-  flex-direction: row;
-  padding-top: 2em;
-}
-.member {
-  display: flex;
-  flex-direction: column;
-  height: 33%;
-  width: 50%;
-}
-.member a{
-  color: #e8e1e1;
-  text-decoration: underline;
-}
-.member a:hover {
-  color: #fff;
-}
-.headshot {
-  display: flex;
-  justify-content: center;
-  height: auto;
-}
-.member-bio {
-  padding: 2em;
-} */
-/* EVENTS STYLES */
-/* .events-img {
-  background-image: url(../images/perf.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 45vh;
-}
-.event-details {
-  font-size: 1.2em;
-  border-bottom: 1px solid #bdb7b7;
-  box-sizing: border-box;
-  color: #bdb7b7;
-  line-height: 50px;
-  margin: auto;
-  margin-bottom: 5em;
-  padding: 2em 2em 4em;
-  width: 80%;
-} */
-/* Contact styles */
-
 /* Media queries */
 @media (max-width: 500px) {
   #header-logo {
