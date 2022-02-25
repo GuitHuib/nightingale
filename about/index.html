@@ -4,53 +4,51 @@ title: About
 photo_credit: Photos courtesy of Sergio M.
 ---
 
-<div class="top-banner">
-
+<div class="col-md-7 white-bg mt-5">
+  <div class="bio-header">
+    <h1>Our Mission</h1>
+  </div>
+  <p class="pb-4">
+    Nightingale Ensemble uses music as a tool for social change by
+    commissioning new works from a diverse group that represent the breadth
+    and depth of classical composers in the modern world.
+  </p>
+  <p class="pb-4">
+    The ensemble partners with composers and other musicians to broaden
+    the repertoire for instruments and push musical pairings to find
+    exciting, new soundscapes.
+  </p>
+  <p>
+    Nightingale Ensemble emphasizes finding contemporary composers who
+    will bring a unique voice to their compositions through a range of
+    backgrounds that are as diverse as our world is today!
+  </p>
 </div>
-<div class="flex-container">
-  <div class="container-lg">
 
-    <div class="col-md-7 p-5">
-      <h1>Our Mission</h1>
-      <p class="pb-4">
-        Nightingale Ensemble uses music as a tool for social change by
-        commissioning new works from a diverse group that represent the breadth
-        and depth of classical composers in the modern world.
-      </p>
-      <p class="pb-4">
-        The ensemble partners with composers and other musicians to broaden
-        the repertoire for instruments and push musical pairings to find
-        exciting, new soundscapes.
-      </p>
-      <p>
-        Nightingale Ensemble emphasizes finding contemporary composers who
-        will bring a unique voice to their compositions through a range of
-        backgrounds that are as diverse as our world is today!
-      </p>
-    </div>
+<div class="members-header">
+  <h1>The Ensemble</h1>
+  <p>Click a members' portrait to read their bio</p>
+</div>
 
 
-    {% include members.html %}
+{% include members.html %}
 
-    <div id="bios" class="bio-container d-none">
-      <div class="row p-5">
+<div id="bios" class="bio-container d-none">
+  <div class="row">
 
-        {% include val_bio.html %}
+    {% include val_bio.html %}
 
-        {% include leanne_bio.html %}
+    {% include leanne_bio.html %}
 
-        {% include robin_bio.html %}
+    {% include robin_bio.html %}
 
-        {% include zoe_bio.html %}
+    {% include zoe_bio.html %}
 
-        {% include ryan_bio.html %}
-
-      </div>
-    </div>
-
-    <div class="">
-
-    </div>
+    {% include ryan_bio.html %}
 
   </div>
+</div>
+
+<div class="">
+
 </div>

@@ -110,6 +110,9 @@ ul {
 #header-logo img {
   width: 275px;
 }
+.navbar {
+  padding-right: 20px;
+}
 .top-banner {
   background-color: rgba(0,0,0,0.8);
   padding-top: 9.5vh;
@@ -212,7 +215,25 @@ video {
   padding: 20px;
 }
 /* About styles */
+.white-bg {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+.members-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-family: 'Kalam', cursive;
+  font-size: 1rem;
+  padding: 3vh 0;
+  margin: 3vh 0;
+  text-align: center;
+  width: 100%;
+}
+.members-header h1{
+  font-size: 2rem;
+}
 .bio-container {
+  padding: 10px;
   position: relative;
 }
 .bio {
@@ -224,9 +245,18 @@ video {
   position: relative;
   transform: translate(0, 0);
 }
+.bio-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-family: 'Kalam', cursive;
+  margin-bottom: 10px;
+  width: 100%;
+}
 .headshots {
   margin: 5rem 0;
   text-transform: uppercase;
+}
+.headshots + .headshots {
+  margin: 0;
 }
 .headshot {
   transition: all 1s;
@@ -259,6 +289,14 @@ video {
   height: auto;
   width: 75%;
 }
+/* Support */
+.donor-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  line-height: 1.5rem;
+  list-style: initial;
+}
 /* FOOTER STYLES */
 .footer {
   padding: 3vh 0;
@@ -286,11 +324,21 @@ video {
     justify-content: center;
     width: 100%;
   }
+  .bio.active {
+    margin-top: 8vh;
+  }
 }
 @media (max-width: 760px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
   h2 {
     font-size: 1.325rem;
     line-height: 1.625rem;
+  }
+  .bio {
+    padding: 5px;
   }
 
 }
