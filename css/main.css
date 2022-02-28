@@ -50,6 +50,9 @@ ul {
 .divider {
   height: 5vh;
 }
+.required {
+  color: #790000;
+}
 /* Images */
 .img1 {
   background-image: url(../images/ug_01.jpeg);
@@ -206,7 +209,7 @@ video {
 .list {
   margin: 50px 0 30px;
 }
-/* video styles */
+/* Media styles */
 .vid-row {
   padding: 20px;
   width: 100%;
@@ -245,7 +248,7 @@ video {
   position: relative;
   transform: translate(0, 0);
 }
-.bio-header {
+.text-header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   font-family: 'Kalam', cursive;
   margin-bottom: 10px;
@@ -296,6 +299,41 @@ video {
   -moz-columns: 2;
   line-height: 1.5rem;
   list-style: initial;
+}
+/* Form */
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form form {
+  max-width: 600px;
+}
+.contact-form label {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.contact-form input {
+  background-color: #d8e3e8;
+  border: 2px solid #4896b8;
+  padding: .8rem;
+  width: 100%;
+}
+.contact-form textarea {
+  background-color: #d8e3e8;
+  border: 2px solid #4896b8;
+  padding: .8rem;
+  height: 320px;
+  width: 100%;
+}
+.contact-form button {
+  background-color: #d8e3e8;
+  border: 2px solid #4896b8;
+  color: #4896b8;
+  font-size: 0.875rem;
+  margin: 2rem 0;
+  padding: .8rem 2rem;
+  text-transform: uppercase;
 }
 /* FOOTER STYLES */
 .footer {
