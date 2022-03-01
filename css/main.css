@@ -47,9 +47,6 @@ ul {
 .hidden {
   opacity: 0;
 }
-.divider {
-  height: 5vh;
-}
 .required {
   color: #790000;
 }
@@ -89,7 +86,7 @@ ul {
   background-size: cover;
 }
 .content-container {
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 /* HEADER 8c98a1 */
 .header {
@@ -185,14 +182,14 @@ video {
   font-weight: 700;
   text-decoration: underline;
 }
+/* Event styling */
+.event a {
+  line-height: 1.5em;
+}
 .arrow-link {
   align-self: end;
   font-size: 1.75rem;
   padding: 3rem 3rem 0;
-}
-/* Event styling */
-.event a {
-  line-height: 1.5em;
 }
 .date {
   color: #b74c5d;
@@ -217,7 +214,7 @@ video {
   padding: 20px;
   width: 100%;
 }
-.vid-container {
+.media-container {
   padding: 20px;
 }
 /* About styles */

@@ -1,8 +1,22 @@
 ---
 layout: landing-page
-<!-- photo_credit: Photo courtesy of Sergio M. -->
 ---
 
-{% include home.html %}
+<div class="video-wrapper home-img">
+  <video playsinline autoplay muted loop height="800px" id="myVideo">
+    <source src="images/trimmed.mp4" type="video/mp4">
+  </video>
 
-{% include landing.html %}
+  <div class="overlay">
+    <div class="main-logo flex-container">
+      <img src="images/logo.jpeg" alt="Nightingale Logo">
+    </div>
+  </div>
+</div>
+
+
+{% include event_splash.html %}
+
+{% include about-ng.html %}
+
+{% include media_splash.html %}

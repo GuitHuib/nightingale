@@ -1,57 +1,34 @@
 <div class="row headshots">
-  <div id="01"class="col-4 headshot text-center">
-    <a href="#bios">
-      {% include headshot.html src="../images/val2.jpeg" %}
-      <div class="name">
-        <h2>Valerie Beck,</h2>
-        <h2>Soprano</h2>
-      </div>
-    </a>
-  </div>
-
-  <div id="02" class="col-4 headshot text-center">
-    <a href="#bios">
-      {% include headshot.html src="../images/leanne2.jpeg" %}
-      <div class="name">
-        <h2>LeAnne Bennion,</h2>
-        <h2>harp</h2>
-      </div>
-    </a>
-  </div>
-
-  <div id="03" class="col-4 headshot text-center">
-    <a href="#bios">
-      {% include headshot.html src="../images/robin2.jpeg" %}
-      <div class="name">
-        <h2>Robin Meiksins,</h2>
-        <h2>flute</h2>
-      </div>
-    </a>
-  </div>
+  {% include member.html id="01"
+                         src="../images/val2.jpeg"
+                         name="Valerie Beck,"
+                         instrument="Soprano"
+  %}
+  {% include member.html id="02"
+                         src="../images/leanne2.jpeg"
+                         name="LeAnne Bennion,"
+                         instrument="Harp"
+  %}
+  {% include member.html id="03"
+                         src="../images/robin2.jpeg"
+                         name="Robin Meiksins,"
+                         instrument="Flute"
+  %}
 </div>
-
 <div class="row headshots">
-  <div id="04" class="col-4 headshot text-center">
-    <a href="#bios">
-      {% include headshot.html src="../images/zoe2.jpeg" %}
-      <div class="name">
-        <h2>Zoë Wallace,</h2>
-        <h2>guitar</h2>
-      </div>
-    </a>
-  </div>
+  {% include member.html id="04"
+                         src="../images/zoe2.jpeg"
+                         name="Zoë Wallace,"
+                         instrument="Guitar"
+  %}
 
   <div id="00" class="col-4 text-center">
     <img src="{{ site.baseurl }}/images/logo.jpeg" alt="Nightingale Logo" class="img-sq">
   </div>
 
-  <div id="05" class="col-4 headshot text-center">
-    <a href="#bios">
-      {% include headshot.html src="../images/ryan2.jpeg" %}
-      <div class="name">
-        <h2>Ryan Wallace,</h2>
-        <h2>guitar</h2>
-      </div>
-    </a>
-  </div>
+  {% include member.html id="05"
+                         src="../images/ryan2.jpeg"
+                         name="Ryan Wallace,"
+                         instrument="Guitar"
+  %}
 </div>
