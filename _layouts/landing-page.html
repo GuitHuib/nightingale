@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   {% include head.html %}
   <body>
-    {% include header.html %}
-    <div class="content-container">
+    {% include header.html header_class="header" logo_class="hidden" %}
+    <div class="landing-container">
       {{ content }}
       {% include footer.html %}
     </div>

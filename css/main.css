@@ -88,6 +88,9 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.content-container {
+  margin-top: 15vh;
+}
 /* HEADER 8c98a1 */
 .header {
   box-sizing: border-box;
