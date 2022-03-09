@@ -4,7 +4,7 @@ layout: landing-page
 
 <div class="video-wrapper home-img">
   <video playsinline autoplay muted loop height="800px" id="myVideo">
-    <source src="images/trimmed.mp4" type="video/mp4">
+    <source src="images/landing_vid.mp4" type="video/mp4">
   </video>
 
   <div class="overlay">
